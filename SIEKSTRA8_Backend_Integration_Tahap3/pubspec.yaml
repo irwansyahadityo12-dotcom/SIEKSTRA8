@@ -1,0 +1,23 @@
+name: siekstra8
+description: SIEKSTRA-8 - Sistem Informasi Ekstrakurikuler SMKN 8 Malang (Siswa, Pembina, Admin).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  supabase_flutter: ^2.9.1
+  cupertino_icons: ^1.0.8
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
